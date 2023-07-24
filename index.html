@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="background-image">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo1.png" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </li>                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./login.html">Login</a>
+                            <a class="dropdown-item" href="./signup.html">Signup</a>
+                        </div>
+                    </li>                  
+                </ul>
+            </div>
+        </nav>
+        <div class="background-text">
+            <h1 class="heading1">The Best Delicious Food</h1>
+            <h3 class="heading2">Made With Love</h3>
+            <p class="heading3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a augue non massa convallis ornare sed et ex. 
+                Morbi fermentum nisl vitae arcu laoreet consequat. Nam euismod nisi et ante tristique, a faucibus libero rhoncus. 
+            </p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </div>
+    <!--section 2-->
+    <div class="container row mx-auto section2">
+        <div class="col-lg-4">
+            <img src="./images/our-story1.jpg" class="story">
+        </div>
+        <div class="col-lg-4">
+            <img src="./images/our-story2.jpg" class="story story1">
+        </div>
+        <div class="col-lg-4">
+            <h3 class="heading4 text-uppercase">Our Story</h3>
+            <p class="heading5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a augue non massa convallis ornare sed et ex. 
+                Morbi fermentum nisl vitae arcu laoreet consequat. Nam euismod nisi et ante tristique, a faucibus libero rhoncus. 
+                Maecenas ultrices elit est, vel posuere massa dignissim at. Donec ut dui vel leo scelerisque gravida. In hac habitasse platea
+                dictumst. In non ultrices nisl, in dapibus ipsum. Suspendisse sollicitudin justo mollis, auctor neque at, mollis magna. 
+                Donec at aliquet ligula, quis convallis nisl.
+            </p>
+        </div>
+    </div>
+    <!--section 3-->
+    <div class="container-fluid section3 m-0">
+        <h3 class="heading6 text-uppercase mx-auto">Special Offers</h3>
+        <div class="container-fluid">
+            <div class="slider" id="slider">
+                <div class="item">
+                    <img src="./images/offers/img1.jpg" id="slides" class="img-fluid" alt="">
+                    <div class="carousel-caption1 d-none d-md-block">
+                        <h5 class="card-title">Chicken Burger</h5> 
+                        <p class="font-weight-bold">Rs: 1500.00</p> 
+                    </div> 
+                </div>
+                <div class="item">
+                    <img src="./images/offers/img2.jpg" id="slides" class="img-fluid" alt="">
+                    <div class="carousel-caption2 d-none d-md-block">
+                        <h5 class="card-title">Deep Fried Chicken Roll</h5>
+                        <p class="font-weight-bold">Rs: 1500.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/offers/img3.jpg" id="slides" class="img-fluid" alt="">
+                    <div class="carousel-caption3 d-none d-md-block">
+                        <h5 class="card-title">Penne Pasta with Chicken</h5>
+                        <p class="font-weight-bold">Rs: 1500.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/offers/img4.jpg" id="slides" class="img-fluid" alt="">
+                    <div class="carousel-caption4 d-none d-md-block">
+                        <h5 class="card-title">Stir Fried Chicken</h5>
+                        <p class="font-weight-bold">Rs: 1500.00</p>
+                    </div>
+                </div>
+                
+    
+                <div class="slide left">
+                    <span class="fa fa-angle-left" onclick="prev()"></span>
+                </div>
+        
+                <div class="slide right">
+                    <span class="fa fa-angle-right" onclick="next()"></span>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <!--section 4-->
+    <div class="container-fluid section4 m-0">
+        <h3 class="heading7 text-uppercase mx-auto">Our Menu</h3>
+        <div class="row mx-auto text-center mb-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/biriyani.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Biriyani</h5> 
+                      <p class="font-weight-bold">Rs: 3500.00</p>                    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/noodles.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Noodles</h5>
+                      <p class="font-weight-bold">Rs: 3200.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/pasta.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Penne Pasta with Chicken</h5>
+                      <p class="font-weight-bold">Rs: 3400.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/sushi.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sushi</h5>
+                      <p class="font-weight-bold">Rs: 2800.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto text-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/submarine.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Submarine</h5> 
+                      <p class="font-weight-bold">Rs: 1500.00</p>                    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/sandwich.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Sandwich</h5>
+                      <p class="font-weight-bold">Rs: 1500.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/pancake.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Pancake with Honey</h5>
+                      <p class="font-weight-bold">Rs: 1800.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./images/menu/cheesecake.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Cheesecake</h5>
+                      <p class="font-weight-bold">Rs: 1500.00</p>    
+                      <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="text-center mt-5">
+            <a href="./menu.html" class="btn btn-dark">View More</a>  
+        </div>         
+    </div>  
+    <!--section 5-->    
+    <div class="section5 row container mx-auto m-5 p-5 border border-secondary">
+        <div class="col-lg-6">
+            <h3 class="heading4 text-uppercase">Our Chief</h3>
+            <p class="heading5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a augue non massa convallis ornare sed et ex. 
+                Morbi fermentum nisl vitae arcu laoreet consequat. Nam euismod nisi et ante tristique, a faucibus libero rhoncus. 
+                Maecenas ultrices elit est, vel posuere massa dignissim at. Donec ut dui vel leo scelerisque gravida. In hac habitasse platea
+                dictumst. In non ultrices nisl, in dapibus ipsum. Suspendisse sollicitudin justo mollis, auctor neque at, mollis magna. 
+                Donec at aliquet ligula, quis convallis nisl.
+                <br>
+                Donec ut dui vel leo scelerisque gravida. In hac habitasse platea
+                dictumst. In non ultrices nisl, in dapibus ipsum. Suspendisse sollicitudin justo mollis, auctor neque at, mollis magna. 
+                Donec at aliquet ligula, quis convallis nisl.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="./images/chief.jpg" class="story">
+        </div>
+    </div>
+
+    <!--section 6--> 
+    <section class="home-testimonial">
+        <div class="container-fluid">
+            <h3 class="heading6 text-uppercase mx-auto pt-3">Testimonials</h3>
+            <section class="home-testimonial-bottom">
+                <div class="container testimonial-inner">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Teacher</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Donec ut dui vel leo scelerisque gravida. In hac habitasse platea
+                                        dictumst. In non ultrices nisl, in dapibus ipsum. In non ultrices nisl, in dapibus ipsum.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Doctor</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </section>
+    
+    <footer class="w-100 py-5 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6 f-sect" style="margin-top: -18px;">
+                    <img src="./images/logo1.png" class="logo">
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-danger" href="#">Nurito.com</a></p>
+                </div>
+                <div class="col-lg-2 col-md-6 f-sect">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 f-sect">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="./login.html">Login</a></li>
+                        <li><a href="./signup.html">Signup</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 f-sect">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-danger" id="button-addon2" type="button"><i class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

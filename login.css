@@ -1,0 +1,204 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav bar styles*/
+
+.logo{
+  height: 100px;
+}
+
+.navbar{
+  padding: 0rem 2rem
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-toggler{
+  color: black!important;
+  font-size: 25px;
+  background-color: rgb(186, 185, 185);
+}
+
+.navbar-toggler-icon{
+  color: #000;
+}
+
+.nav-link{
+  color: white;
+  font-size: 16px;
+}
+
+.nav-link:hover{
+  color: white;
+
+}
+
+.nav-link i{
+  font-size: 25px;
+}
+
+/*section 1*/
+
+.background-image {
+  background-image: url("./images/login/bg1.webp");
+  height: 720px;
+  background-position: center;
+  position: relative;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #1c1c1c;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.banner-sec {
+    background-size: cover;
+    /*min-height: 500px;*/
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+.cont1 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    height: 550px;
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+.login-sec {
+    padding: 20px 30px 50px;
+    position: relative;
+    height: 550px;
+    background-color: rgb(223, 215, 215);
+}
+
+.banner-sec{
+    height: 550px;
+}
+
+.btn-login {
+    background: black;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cont2{
+    margin-bottom: 25px;
+}
+
+.form-check{
+    padding: 0px;
+}
+
+.s-label{
+    font-size: 15px;
+}
+
+.text1{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+/*footer*/
+ 
+.text-small {
+  font-size: 0.9rem;
+}
+
+.list-unstyled li  a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 15px;
+}
+
+.list-unstyled li a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-ctrl {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-ctrl:focus {
+  background: #212529;
+}
+
+footer {
+  background: #2a2e32;
+}
+
+@media (max-width: 768px) {
+  .f-sect{
+    margin-bottom: 20px;
+  }
+
+  .text1{
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+      text-align: center;
+      margin-top: 500px;
+    }
+
+    .signup{
+      margin-top: 570px;
+    }
+
+    .signup-sec{
+      height: 630px;
+    }
+}
+
